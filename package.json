@@ -5,7 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "hexo-renderer-ejs": "^0.2.0",
-    "hexo-renderer-marked": "^0.2.11"
+    "hexo-renderer-marked": "^0.2.11",
+    "snyk": "^1.47.0"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,10 @@
     "name": "tangsir",
     "url": "https://www.tangkunyin.com",
     "email": "iam@tangkunyin.com"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
