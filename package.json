@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "hexo-renderer-ejs": "^0.2.0",
-    "hexo-renderer-marked": "^0.2.11"
+    "hexo-renderer-marked": "^3.0.0"
   },
   "repository": {
     "type": "git",
